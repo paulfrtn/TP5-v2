@@ -12,7 +12,7 @@ void afficher_successeurs(t_sommet** sommet, int num)
     {
         printf("\t successeur: %d | poids : %d  \n",arc->sommet,arc->poids);
         arc=arc->arc_suivant;
-    }
+
 
 }
 
@@ -154,7 +154,10 @@ int minimum(t_graphe* graphe)
     }
     return min; //On retourne min au programme appelant
 }
-
+void  tri()
+{
+}
+}
 void kruskal()
 {
 
@@ -163,6 +166,4 @@ void kruskal()
 void prim(t_graphe* graphe)
 {
 }
-
-
 
